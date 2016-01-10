@@ -1,0 +1,23 @@
+{
+  "name": "node-command",
+  "version": "0.0.1",
+  "description": "this is a command project used by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouxinyong/node-command.git"
+  },
+  "keywords": [
+    "node",
+    "command"
+  ],
+  "author": "zhouxinyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouxinyong/node-command/issues"
+  },
+  "homepage": "https://github.com/zhouxinyong/node-command#readme"
+}
