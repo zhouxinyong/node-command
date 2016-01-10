@@ -16,8 +16,18 @@
   ],
   "author": "zhouxinyong",
   "license": "MIT",
+  "bin": {
+    "cod": "./bin/cod"
+  },
   "bugs": {
     "url": "https://github.com/zhouxinyong/node-command/issues"
   },
-  "homepage": "https://github.com/zhouxinyong/node-command#readme"
+  "homepage": "https://github.com/zhouxinyong/node-command#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.3",
+    "markdown-it": "^5.1.0",
+    "serve-static": "^1.10.0",
+    "swig": "^1.4.2"
+  }
 }
