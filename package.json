@@ -26,6 +26,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "express": "^4.13.3",
+    "fs-extra": "^0.26.4",
     "markdown-it": "^5.1.0",
     "rd": "0.0.2",
     "serve-static": "^1.10.0",

@@ -31,9 +31,7 @@ program.command('preview [dir]')
 program.command('build [dir]')
 		.description('生成整站静态HTML')
 		.option( '-o, --output <dir>','生成静态HTML存放目录')
-		.action(function(dir, options){
-			console.log( 'create %s,output %s',dir,options.output);
-		});
+		.action(require('../lib/cmd_build'));
 
 //开始解析命令
 program.parse(process.argv);
