@@ -12,13 +12,10 @@ program.command('help')
 			program.outputHelp();
 		});
 
-
 //creat命令
 program.command('create [dir]')
 		.description('创建一个空的博客')
-		.action(function(dir){
-			cosole.log( 'create %s', dir );
-		});
+		.action(require('../lib/cmd_creat'));
 
 
 //preview命令
